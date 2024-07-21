@@ -1,0 +1,22 @@
+### 
+POST  http://localhost:8000/api/auth/login 
+Content-Type:application/json
+
+{
+    "Name" : "BRUH" ,
+    "Email" : "example@wow.com", 
+    "Password" : "admin1234",
+    "PasswordConfirm" : "admin1234"
+}
+### 
+
+###
+GET http://localhost:8000/api/goods/155e96a9-0f5e-4a77-a1dc-80048f3e7905 
+
+### 
+POST  http://localhost:8000/api/goods/InsertGoods 
+Content-Type:application/json
+
+{
+    "ref": "bruh" 
+}
